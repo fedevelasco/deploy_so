@@ -1,0 +1,23 @@
+
+dos2unix ips.config ips.config
+
+sed -i -e 's/\r$//' scriptname.sh
+
+
+1) snap install ngrok
+
+2) ngrok authtoken TOKEN
+
+3) ngrok tcp PUERTO
+
+scp -P 2222 deploy.sh utnso@localhost:/home/utnso
+
+deploy.sh -m release -d=static -p=consola -p=kernel -p=cpu -p=ram_swap tp-2022-1c-Grupo-TP-SO 
+
+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
+
+putty
+
+chmod u+x deploy.sh
+
+sudo apt-get install dos2unix

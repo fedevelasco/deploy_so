@@ -1,0 +1,65 @@
+Consola:
+make base1
+make base2
+make base2
+
+RAM - CPU - KERNEL:
+make base
+
+-------------------------------------------------------
+
+make planificacion1
+make planificacion1
+make planificacion2
+
+
+RAM - CPU - KERNEL:
+make planificacion
+
+Cambiar en PLANI_KERNEL.cfg FIFO -> SRT
+
+--------------------------------------------------------
+
+make suspension1
+make suspension2
+make suspension3
+
+
+RAM - CPU - KERNEL:
+make suspension
+
+Cambiar en SUSPE_KERNEL.cfg FIFO -> SRT
+
+
+-----------------------------------------------------------
+
+make memoria
+
+RAM - CPU - KERNEL:
+make memoria
+
+Cambiar en MEMORIA_MEMORIA.cfg  CLOCK -> CLOCK-M
+
+
+-----------------------------------------------------------
+
+
+make tlb1
+make tlb2
+
+RAM - CPU - KERNEL:
+make tlb
+
+Cambiar en TLB_CPU.cfg FIFO -> LRU
+
+------------------------------------------------------------
+
+
+make integral1
+make integral2
+make integral3
+make integral4
+make integral5
+
+RAM - CPU - KERNEL:
+make integral
